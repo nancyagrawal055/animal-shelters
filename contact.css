@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+background-color:rgba(236, 229, 216, 0.547);
+}
+#main{
+    height: 100%;
+}
+#navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#navbar img{
+    height: 50px;
+}
+#navbar a{
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+#navbar a:visited{
+    color:rgba(192, 46, 46, 0.688);
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 28px;
+font-weight: 900;
+padding-left: 200px;
+margin-top: 50px;
+     color:rgba(226, 48, 48, 0.856);
+}
+#hero{
+    display: flex;justify-content: space-evenly;
+    height: 250px;
+    padding-left: 200px;
+    /* padding-right: 200px; */
+    margin-top: 50px;
+    
+
+}
+#hero p{
+    padding: 2px;
+    margin: 3px;
+}
+form input , #area {
+    background-color: none;
+    margin: 5px;
+    padding: 8px 70px;
+}
+#imgs{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    margin-left: 200px;
+    /* padding-left: 200px; */
+}
+
+
+
+
+
+
+
+#footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding-left : 300px;
+    padding-right: 300px; */
+    color: white;
+    background-color:rgba(222, 21, 21, 0.881);
+    height: 150px;
+    font-family: 'Montserrat', sans-serif;
+}
+#footer button{
+    padding: 20px 30px;
+    font-size: 18px;
+    text-align: center;
+    font-family:'Montserrat', sans-serif ;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color:rgba(222, 21, 21, 0.881) ;
+}
